@@ -7,7 +7,7 @@ source ./gomi.ini
 #==============================================
 from="gomi@master"
 subject="Today is"
-contents="Don't barn & petbottle trash day!!"
+contents="can & bottle trash day!!"
 echo $contents | mail -s "$subject" ${mail1}
 echo $contents | mail -s "$subject" ${mail2}
 if [ $? -eq 1 ]; then
